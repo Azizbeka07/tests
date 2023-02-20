@@ -1,0 +1,52 @@
+.header-banner {
+    margin-block: 183px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    &-box {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 9.04%, rgba(0, 0, 0, 0) 43.36%);
+    }
+
+    &__title {
+        max-width: 703px;
+        width: 100%;
+        font-size: 50px;
+        line-height: 150%;
+        color: $titleColor;
+    }
+
+    &__text {
+        font-family: $fontfamily;
+        font-size: 23px;
+        line-height: 150%;
+        color: $titleColor;
+    }
+
+    &__btn {
+        width: 231px;
+        padding: 12px 54px;
+        background-color: $btnColor;
+        border: 2px solid $btnColor;
+        font-size: 24px;
+        line-height: 150%;
+        color: $titleColor;
+        margin-bottom: 100px;
+        transition: .5s;
+        position: relative;
+    }
+
+    &__btn:hover {
+        background-color: $titleColor;
+        border: 2px solid $btnColor;
+        color: $btnColor;
+    }
+
+    &__arrow {
+        width: 50px;
+        height: 70px;
+        position: absolute;
+        left: 1141px;
+        top: 874px;
+    }
+}
