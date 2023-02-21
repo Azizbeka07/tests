@@ -66,5 +66,18 @@
         background-repeat: no-repeat;
         background-image: url(/img/people.png);
         background-size: cover;
+
+        &__title {
+            font-size: 48px;
+            line-height: 150%;
+            color: $titleColor;
+        }
+
+        &__text {
+            font-size: 22px;
+            max-width: 342px;
+            width: 100%;
+            color: $titleColor;
+        }
     }
 }
