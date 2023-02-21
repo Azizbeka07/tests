@@ -182,6 +182,7 @@
   color: #FFFFFF;
 }
 .main-card .card-img {
+  padding: 50px;
   background-image: url(/img/people.png);
   background-size: cover;
 }/*# sourceMappingURL=main.css.map */
