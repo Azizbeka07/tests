@@ -1,6 +1,6 @@
 .main-card {
 
-    .card{
+    .card {
         display: flex;
     }
 
@@ -35,7 +35,7 @@
     }
 
     .card-right {
-        padding: 44px 0 0 40px;
+        padding: 44px 50px 0 40px;
         background-color: $btnColor;
 
         &__titles {
@@ -43,16 +43,16 @@
             line-height: 150%;
             color: $titleColor;
         }
-    
+
         &__texts {
             font-size: 22px;
             max-width: 342px;
             width: 100%;
             color: $titleColor;
         }
-    
+
         &__links {
-            font-size: 22px;
+            font-size: 50px;
             line-height: 150%;
             text-decoration: underline;
             color: $titleColor;
