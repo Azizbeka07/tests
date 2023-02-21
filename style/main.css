@@ -189,12 +189,12 @@
   background-image: url(/img/people.png);
   background-size: cover;
 }
-.main-card .cards-img__title {
+.main-card .cards-img .card__title {
   font-size: 48px;
   line-height: 150%;
   color: #FFFFFF;
 }
-.main-card .cards-img__text {
+.main-card .cards-img .card__text {
   font-size: 22px;
   max-width: 342px;
   width: 100%;
