@@ -161,7 +161,7 @@
   color: #FFFFFF;
 }
 .main-card .card-right {
-  padding: 44px 0 0 40px;
+  padding: 44px 50px 0 40px;
   background-color: #DF4F3A;
 }
 .main-card .card-right__titles {
@@ -175,8 +175,8 @@
   width: 100%;
   color: #FFFFFF;
 }
-.main-card .card-right__links {
-  font-size: 22px;
+.main-card .card-right .card__links {
+  font-size: 50px;
   line-height: 150%;
   text-decoration: underline;
   color: #FFFFFF;
