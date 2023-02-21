@@ -199,4 +199,10 @@
   max-width: 342px;
   width: 100%;
   color: #FFFFFF;
+}
+.main-card .cards__link {
+  font-size: 22px;
+  line-height: 150%;
+  text-decoration: underline;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
