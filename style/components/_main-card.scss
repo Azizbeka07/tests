@@ -58,4 +58,9 @@
             color: $titleColor;
         }
     }
+
+    .card-img {
+        background-image: url(/img/people.png);
+        background-size: cover;
+    }
 }

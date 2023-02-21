@@ -180,4 +180,8 @@
   line-height: 150%;
   text-decoration: underline;
   color: #FFFFFF;
+}
+.main-card .card-img {
+  background-image: url(/img/people.png);
+  background-size: cover;
 }/*# sourceMappingURL=main.css.map */
