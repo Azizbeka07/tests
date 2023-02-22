@@ -74,10 +74,12 @@
   line-height: 150%;
   opacity: 0.5;
   color: #FFFFFF;
+  border-bottom: 3px solid transparent;
+  transition: all 0.4s;
 }
 .header-banner__img .header-top .navbar .menu-link:hover {
-  color: #FFFFFF;
-  border-bottom: 3px solid #DF4F3A;
+  opacity: 1;
+  border-color: #DF4F3A;
 }
 .header-banner__img .header-top__img {
   width: 80px;
@@ -181,8 +183,44 @@
   text-decoration: underline;
   color: #FFFFFF;
 }
-.main-card .cards-img {
-  max-width: 450px;
+.main-card .cards {
+  display: flex;
+}
+.main-card .cards .cards-img {
+  max-width: 380px;
+  width: 100%;
+  height: 402px;
+  padding: 34px 40px 0 30px;
+  background-repeat: no-repeat;
+  background-image: url(/img/people.png);
+  background-size: cover;
+}
+.main-card .cards .cards__title {
+  font-size: 48px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.main-card .cards .cards__text {
+  font-size: 22px;
+  max-width: 342px;
+  width: 100%;
+  color: #FFFFFF;
+}
+.main-card .cards .cards__link {
+  font-size: 22px;
+  line-height: 150%;
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+.main-card .cards-events {
+  max-width: 380px;
+  width: 100%;
+  height: 402px;
+  padding: 34px 40px 0 30px;
+  background-color: #DF4F3A;
+}
+.main-card .cards-events .cards-img {
+  max-width: 400px;
   width: 100%;
   height: 402px;
   padding: 44px 50px 0 40px;
@@ -190,20 +228,27 @@
   background-image: url(/img/people.png);
   background-size: cover;
 }
-.main-card .cards__title {
+.main-card .cards-events .cards__title {
   font-size: 48px;
   line-height: 150%;
   color: #FFFFFF;
 }
-.main-card .cards__text {
+.main-card .cards-events .cards__text {
   font-size: 22px;
   max-width: 342px;
   width: 100%;
   color: #FFFFFF;
 }
-.main-card .cards__link {
+.main-card .cards-events .cards__link {
   font-size: 22px;
   line-height: 150%;
   text-decoration: underline;
   color: #FFFFFF;
+}
+.main-card .cards-events .cards-right__img {
+  max-width: 380px;
+  width: 100%;
+  height: 402px;
+  background-image: url(/img/students.png);
+  background-size: cover;
 }/*# sourceMappingURL=main.css.map */

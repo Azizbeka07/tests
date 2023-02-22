@@ -19,11 +19,14 @@
                 line-height: 150%;
                 opacity: 0.5;
                 color: $titleColor;
+                border-bottom: 3px solid transparent;
+                transition: all 0.4s;
+
             }
 
             .menu-link:hover {
-                color: $titleColor;
-                border-bottom: 3px solid $btnColor;
+                opacity: 1;
+                border-color: $btnColor;
             }
         }
 

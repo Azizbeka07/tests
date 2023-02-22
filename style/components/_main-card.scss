@@ -59,32 +59,83 @@
         }
     }
 
-    .cards-img {
-        max-width: 450px;
+    .cards {
+        display: flex;
+
+        .cards-img {
+            max-width: 380px;
+            width: 100%;
+            height: 402px;
+            padding: 34px 40px 0 30px;
+            background-repeat: no-repeat;
+            background-image: url(/img/people.png);
+            background-size: cover;
+        }
+
+        .cards__title {
+            font-size: 48px;
+            line-height: 150%;
+            color: $titleColor;
+        }
+
+        .cards__text {
+            font-size: 22px;
+            max-width: 342px;
+            width: 100%;
+            color: $titleColor;
+        }
+
+        .cards__link {
+            font-size: 22px;
+            line-height: 150%;
+            text-decoration: underline;
+            color: $titleColor;
+        }
+    }
+
+    .cards-events {
+        max-width: 380px;
         width: 100%;
         height: 402px;
-        padding: 44px 50px 0 40px;
-        background-repeat: no-repeat;
-        background-image: url(/img/people.png);
-        background-size: cover;
-    }
-    .cards__title {
-        font-size: 48px;
-        line-height: 150%;
-        color: $titleColor;
-    }
+        padding: 34px 40px 0 30px;
+        background-color: $btnColor;
 
-    .cards__text {
-        font-size: 22px;
-        max-width: 342px;
-        width: 100%;
-        color: $titleColor;
-    }
+        .cards-img {
+            max-width: 400px;
+            width: 100%;
+            height: 402px;
+            padding: 44px 50px 0 40px;
+            background-repeat: no-repeat;
+            background-image: url(/img/people.png);
+            background-size: cover;
+        }
 
-    .cards__link {
-        font-size: 22px;
-        line-height: 150%;
-        text-decoration: underline;
-        color: $titleColor;
+        .cards__title {
+            font-size: 48px;
+            line-height: 150%;
+            color: $titleColor;
+        }
+
+        .cards__text {
+            font-size: 22px;
+            max-width: 342px;
+            width: 100%;
+            color: $titleColor;
+        }
+
+        .cards__link {
+            font-size: 22px;
+            line-height: 150%;
+            text-decoration: underline;
+            color: $titleColor;
+        }
+
+        .cards-right__img {
+            max-width: 380px;
+            width: 100%;
+            height: 402px;
+            background-image: url(/img/students.png);
+            background-size: cover;
+        }
     }
 }
