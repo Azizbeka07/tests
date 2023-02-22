@@ -1,0 +1,43 @@
+.main-item {
+    display: flex;
+    margin-top: 80px;
+    background: #FBFBFB;
+    padding: 40px 200px 40px 40px;
+
+    .main-item__left {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .item-left {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .item-left__text {
+            max-width: 430px;
+            width: 100%;
+            font-size: 20px;
+            line-height: 150%;
+        }
+    }
+
+    .item-left__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 50px;
+        width: 100%;
+        height: 49.79px;
+        background-color: $btnColor;
+        border-radius: 100%;
+    }
+}
+
+.main-item__right {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 163px;
+}

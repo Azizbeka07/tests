@@ -286,4 +286,44 @@
   height: 402px;
   background-image: url(/img/students2.png);
   background-size: cover;
+}
+
+.main-item {
+  display: flex;
+  margin-top: 80px;
+  background: #FBFBFB;
+  padding: 40px 200px 40px 40px;
+}
+.main-item .main-item__left {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.main-item .item-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.main-item .item-left .item-left__text {
+  max-width: 430px;
+  width: 100%;
+  font-size: 20px;
+  line-height: 150%;
+}
+.main-item .item-left__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 50px;
+  width: 100%;
+  height: 49.79px;
+  background-color: #DF4F3A;
+  border-radius: 100%;
+}
+
+.main-item__right {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-left: 163px;
 }/*# sourceMappingURL=main.css.map */
