@@ -112,7 +112,7 @@
   width: 231px;
   padding: 12px 54px;
   background-color: #DF4F3A;
-  border: 2px solid #DF4F3A;
+  border: 3px solid #DF4F3A;
   font-size: 24px;
   line-height: 150%;
   color: #FFFFFF;
@@ -122,7 +122,7 @@
 }
 .header-banner__btn:hover {
   background-color: #FFFFFF;
-  border: 2px solid #DF4F3A;
+  border: 3px solid #DF4F3A;
   color: #DF4F3A;
 }
 .header-banner__arrow {
