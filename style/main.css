@@ -326,4 +326,65 @@
   flex-direction: column;
   gap: 32px;
   margin-left: 163px;
+}
+
+.main-programmers .BBALLB {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FBFBFB;
+  padding: 0 0 0 30px;
+}
+.main-programmers .main-programmers__text {
+  font-size: 25px;
+  line-height: 150%;
+}
+.main-programmers .main-programers__btn {
+  padding: 22px 32px;
+  font-size: 24px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  background: #DF4F3A;
+  border: none;
+  color: #FFFFFF;
+  gap: 10px;
+}
+.main-programmers .main-programmers__title {
+  font-size: 40px;
+  line-height: 150%;
+  margin-top: 80px;
+  margin-bottom: 48px;
+}
+
+.main-programmers__box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.main-career__box {
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-between;
+}
+.main-career__box .main-career__img {
+  width: 612.24px;
+  height: 524px;
+}
+.main-career__box .main-career__title {
+  margin-top: 30px;
+  font-size: 48px;
+  line-height: 150%;
+}
+.main-career__box .main-career__text {
+  font-size: 20px;
+  line-height: 150%;
+}
+.main-career__box .Career {
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px;
+  background: #FBFBFB;
+  gap: 30px;
 }/*# sourceMappingURL=main.css.map */

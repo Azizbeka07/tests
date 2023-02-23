@@ -1,0 +1,29 @@
+.main-career__box {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+
+    .main-career__img {
+        width: 612.24px;
+        height: 524px;
+    }
+
+    .main-career__title {
+        margin-top: 30px;
+        font-size: 48px;
+        line-height: 150%;
+    }
+
+    .main-career__text {
+        font-size: 20px;
+        line-height: 150%;
+    }
+
+    .Career {
+        display: flex;
+        flex-direction: column;
+        padding: 0 40px;
+        background: #FBFBFB;
+        gap: 30px;
+    }
+}

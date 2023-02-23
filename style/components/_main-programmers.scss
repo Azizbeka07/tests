@@ -1,0 +1,42 @@
+.main-programmers {
+
+
+    .BBALLB {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $cardColor;
+        padding: 0 0 0 30px;
+    }
+
+    .main-programmers__text {
+        font-size: 25px;
+        line-height: 150%;
+    }
+
+    .main-programers__btn {
+        padding: 22px 32px;
+        font-size: 24px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+        background: $btnColor;
+        border: none;
+        color: $titleColor;
+        gap: 10px;
+    }
+
+    .main-programmers__title {
+        font-size: 40px;
+        line-height: 150%;
+        margin-top: 80px;
+        margin-bottom: 48px;
+    }
+
+}
+
+.main-programmers__box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
