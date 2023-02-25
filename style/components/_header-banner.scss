@@ -32,7 +32,6 @@
         color: $titleColor;
         margin-bottom: 100px;
         transition: .5s;
-        position: relative;
     }
 
     &__btn:hover {
@@ -45,7 +44,7 @@
         width: 50px;
         height: 70px;
         position: absolute;
-        left: 30%;
-        top: 10%;
+        left: 91%;
+        top: 260%;
     }
 }
