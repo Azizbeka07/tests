@@ -1,7 +1,10 @@
 .main-card {
+    display: flex;
+    flex-direction: column;
 
     .card {
         display: flex;
+        flex-direction: row;
     }
 
     &__img {
@@ -35,7 +38,7 @@
     }
 
     .card-right {
-        padding: 44px 50px 0 40px;
+        padding: 44px 25px 0 40px;
         background-color: $btnColor;
 
         &__titles {
