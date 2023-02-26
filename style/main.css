@@ -92,6 +92,7 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
+  position: relative;
 }
 .header-banner-box {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 9.04%, rgba(0, 0, 0, 0) 43.36%);
@@ -118,7 +119,6 @@
   color: #FFFFFF;
   margin-bottom: 100px;
   transition: 0.5s;
-  position: relative;
 }
 .header-banner__btn:hover {
   background-color: #FFFFFF;
@@ -129,8 +129,8 @@
   width: 50px;
   height: 70px;
   position: absolute;
-  left: 1141px;
-  top: 874px;
+  left: 91%;
+  top: 110%;
 }
 
 .main-card {
@@ -429,41 +429,4 @@
   color: #FFFFFF;
   font-size: 12px;
   line-height: 14px;
-}
-
-html,
-body {
-  position: relative;
-  height: 100%;
-}
-
-body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
-
-swiper-container {
-  width: 100%;
-  height: 100%;
-}
-
-swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
 }/*# sourceMappingURL=main.css.map */

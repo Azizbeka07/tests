@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+    position: relative;
 
     &-box {
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 9.04%, rgba(0, 0, 0, 0) 43.36%);
@@ -45,6 +46,6 @@
         height: 70px;
         position: absolute;
         left: 91%;
-        top: 260%;
+        top: 110%;
     }
 }
