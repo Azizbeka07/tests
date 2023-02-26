@@ -78,13 +78,34 @@
   border-bottom: 3px solid transparent;
   transition: all 0.4s;
 }
-.header-banner__img .header-top .navbar .menu-link:hover {
+@media only screen and (max-width: 820px) {
+  .header-banner__img .header-top .navbar .menu-link {
+    display: none;
+  }
+}
+.header-banner__img .header-top .navbar .burger-menu {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+}
+@media only screen and (max-width: 820px) {
+  .header-banner__img .header-top .navbar .burger-menu {
+    display: flex;
+  }
+}
+.header-banner__img .header-top .navbar .burger-menu > div {
+  width: 30px;
+  height: 3px;
+  background: #FFFFFF;
+  border-radius: 1px;
+}
+.header-banner__img .header-top .navbar .burger-menu .menu-link:hover {
   opacity: 1;
   border-color: #DF4F3A;
 }
-.header-banner__img .header-top__img {
+.header-banner__img .header-top .navbar__img {
   width: 80px;
-  height: 100px;
+  height: 100%;
 }
 
 .header-banner {

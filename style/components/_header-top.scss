@@ -23,17 +23,37 @@
                 border-bottom: 3px solid transparent;
                 transition: all 0.4s;
 
+                @include mediaMobileFirst(820) {
+                    display: none;
+                }
             }
 
-            .menu-link:hover {
-                opacity: 1;
-                border-color: $btnColor;
-            }
-        }
+            .burger-menu {
+                display: none;
+                flex-direction: column;
+                gap: 5px;
 
-        &__img {
-            width: 80px;
-            height: 100px;
+                @include mediaMobileFirst(820) {
+                    display: flex;
+                }
+
+                &>div {
+                    width: 30px;
+                    height: 3px;
+                    background: $titleColor;
+                    border-radius: 1px;
+                }
+
+                .menu-link:hover {
+                    opacity: 1;
+                    border-color: $btnColor;
+                }
+            }
+
+            &__img {
+                width: 80px;
+                height: 100%;
+            }
         }
     }
 }
