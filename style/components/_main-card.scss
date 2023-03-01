@@ -5,165 +5,106 @@
     .card {
         display: flex;
         flex-direction: row;
-    }
 
-    &__img {
-        padding: 44px 0 0 40px;
-        max-width: 800px;
-        width: 100%;
-        height: 402px;
-        background-image: url(/img/Rectangle\ 22696.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    &__title {
-        font-size: 48px;
-        line-height: 150%;
-        color: $titleColor;
-    }
-
-    &__text {
-        font-size: 22px;
-        max-width: 342px;
-        width: 100%;
-        color: $titleColor;
-    }
-
-    &__link {
-        font-size: 22px;
-        line-height: 150%;
-        text-decoration: underline;
-        color: $titleColor;
-    }
-
-    .card-right {
-        padding: 44px 25px 0 40px;
-        background-color: $btnColor;
-
-        &__titles {
-            font-size: 48px;
-            line-height: 150%;
-            color: $titleColor;
+        @include mediaMobileFirst(1100) {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
 
-        &__texts {
-            font-size: 22px;
-            max-width: 342px;
-            width: 100%;
-            color: $titleColor;
+        @include mediaMobileFirst(670) {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
         }
 
-        .card__links {
-            font-size: 22px;
-            line-height: 150%;
-            text-decoration: underline;
-            color: $titleColor;
-        }
-    }
-
-    .cards {
-        display: flex;
-
-        .cards-img {
-            max-width: 380px;
+        .main-card__img {
+            padding: 44px 0 0 40px;
+            max-width: 800px;
             width: 100%;
             height: 402px;
-            padding: 34px 40px 0 30px;
+            background-image: url(/img/Rectangle\ 22696.png);
             background-repeat: no-repeat;
-            background-image: url(/img/people.png);
             background-size: cover;
+
+            @include mediaMobileFirst(480) {
+                
+            }
         }
 
-        .cards__title {
+        .main-card__title {
             font-size: 48px;
             line-height: 150%;
             color: $titleColor;
         }
 
-        .cards__text {
+        .main-card__text {
             font-size: 22px;
             max-width: 342px;
             width: 100%;
             color: $titleColor;
         }
 
-        .cards__link {
+        .main-card__link {
             font-size: 22px;
             line-height: 150%;
             text-decoration: underline;
             color: $titleColor;
         }
-    }
 
-    .cards-events {
-        max-width: 380px;
-        width: 100%;
-        height: 402px;
-        padding: 34px 40px 0 30px;
-        background-color: #98281B;
-
-        .cards-img {
-            max-width: 400px;
+        .card-right {
+            max-width: 800px;
             width: 100%;
-            height: 402px;
-            padding: 44px 50px 0 40px;
-            background-repeat: no-repeat;
-            background-image: url(/img/people.png);
-            background-size: cover;
+            padding: 44px 25px 100px 40px;
+            background-color: $btnColor;
+
+            &__titles {
+                font-size: 48px;
+                line-height: 150%;
+                color: $titleColor;
+            }
+
+            &__texts {
+                font-size: 22px;
+                max-width: 342px;
+                width: 100%;
+                color: $titleColor;
+            }
+
+            .card__links {
+                font-size: 22px;
+                line-height: 150%;
+                text-decoration: underline;
+                color: $titleColor;
+            }
         }
 
-        .cards__title {
-            font-size: 48px;
-            line-height: 150%;
-            color: $titleColor;
-        }
+        .cards {
+            display: flex;
 
-        .cards__text {
-            font-size: 22px;
-            max-width: 342px;
-            width: 100%;
-            color: $titleColor;
-        }
+            .cards-img {
+                max-width: 380px;
+                width: 100%;
+                height: 402px;
+                padding: 34px 40px 0 30px;
+                background-repeat: no-repeat;
+                background-image: url(/img/people.png);
+                background-size: cover;
+            }
 
-        .cards__link {
-            font-size: 22px;
-            line-height: 150%;
-            text-decoration: underline;
-            color: $titleColor;
-        }
-    }
-    .cards-right__img {
-        max-width: 450px;
-        width: 100%;
-        height: 402px;
-        background-image: url(/img/students.png);
-        background-size: cover;
-    }
-
-    .cardss {
-        display: flex;
-
-        .card-about {
-            max-width: 380px;
-            width: 100%;
-            height: 402px;
-            padding: 34px 40px 0 30px;
-            background: #73291F;
-    
             .cards__title {
                 font-size: 48px;
                 line-height: 150%;
                 color: $titleColor;
             }
-    
+
             .cards__text {
                 font-size: 22px;
                 max-width: 342px;
                 width: 100%;
                 color: $titleColor;
             }
-    
+
             .cards__link {
                 font-size: 22px;
                 line-height: 150%;
@@ -171,13 +112,92 @@
                 color: $titleColor;
             }
         }
-        .card-about__img {
-            padding: 44px 0 0 40px;
-            max-width: 800px;
+
+        .cards-events {
+            max-width: 380px;
             width: 100%;
             height: 402px;
-            background-image: url(/img/students2.png);
+            padding: 34px 40px 0 30px;
+            background-color: #98281B;
+
+            .cards-img {
+                max-width: 400px;
+                width: 100%;
+                height: 402px;
+                padding: 44px 50px 0 40px;
+                background-repeat: no-repeat;
+                background-image: url(/img/people.png);
+                background-size: cover;
+            }
+
+            .cards__title {
+                font-size: 48px;
+                line-height: 150%;
+                color: $titleColor;
+            }
+
+            .cards__text {
+                font-size: 22px;
+                max-width: 342px;
+                width: 100%;
+                color: $titleColor;
+            }
+
+            .cards__link {
+                font-size: 22px;
+                line-height: 150%;
+                text-decoration: underline;
+                color: $titleColor;
+            }
+        }
+
+        .cards-right__img {
+            max-width: 450px;
+            width: 100%;
+            height: 402px;
+            background-image: url(/img/students.png);
             background-size: cover;
+        }
+
+        .cardss {
+            display: flex;
+
+            .card-about {
+                max-width: 380px;
+                width: 100%;
+                height: 402px;
+                padding: 34px 40px 0 30px;
+                background: #73291F;
+
+                .cards__title {
+                    font-size: 48px;
+                    line-height: 150%;
+                    color: $titleColor;
+                }
+
+                .cards__text {
+                    font-size: 22px;
+                    max-width: 342px;
+                    width: 100%;
+                    color: $titleColor;
+                }
+
+                .cards__link {
+                    font-size: 22px;
+                    line-height: 150%;
+                    text-decoration: underline;
+                    color: $titleColor;
+                }
+            }
+
+            .card-about__img {
+                padding: 44px 0 0 40px;
+                max-width: 800px;
+                width: 100%;
+                height: 402px;
+                background-image: url(/img/students2.png);
+                background-size: cover;
+            }
         }
     }
 }

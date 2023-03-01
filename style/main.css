@@ -86,7 +86,7 @@
 .header-banner__img .header-top .navbar .burger-menu {
   display: none;
   flex-direction: column;
-  gap: 5px;
+  gap: 7px;
 }
 @media only screen and (max-width: 820px) {
   .header-banner__img .header-top .navbar .burger-menu {
@@ -94,16 +94,16 @@
   }
 }
 .header-banner__img .header-top .navbar .burger-menu > div {
-  width: 30px;
-  height: 3px;
+  width: 40px;
+  height: 4px;
   background: #FFFFFF;
-  border-radius: 1px;
+  border-radius: 10px;
 }
 .header-banner__img .header-top .navbar .burger-menu .menu-link:hover {
   opacity: 1;
   border-color: #DF4F3A;
 }
-.header-banner__img .header-top .navbar__img {
+.header-banner__img .header-top .navbar .header-top__img {
   width: 80px;
   height: 100%;
 }
@@ -115,6 +115,13 @@
   gap: 32px;
   position: relative;
 }
+@media only screen and (max-width: 820px) {
+  .header-banner {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .header-banner-box {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 9.04%, rgba(0, 0, 0, 0) 43.36%);
 }
@@ -125,21 +132,44 @@
   line-height: 150%;
   color: #FFFFFF;
 }
+@media only screen and (max-width: 670px) {
+  .header-banner__title {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .header-banner__title {
+    font-size: 30px;
+  }
+}
 .header-banner__text {
   font-size: 23px;
   line-height: 150%;
   color: #FFFFFF;
+}
+@media only screen and (max-width: 670px) {
+  .header-banner__text {
+    font-size: 18px;
+  }
 }
 .header-banner__btn {
   width: 231px;
   padding: 12px 54px;
   background-color: #DF4F3A;
   border: 3px solid #DF4F3A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 24px;
   line-height: 150%;
   color: #FFFFFF;
   margin-bottom: 100px;
   transition: 0.5s;
+}
+@media only screen and (max-width: 400px) {
+  .header-banner__btn {
+    padding: 8px 30px;
+  }
 }
 .header-banner__btn:hover {
   background-color: #FFFFFF;
@@ -147,6 +177,7 @@
   color: #DF4F3A;
 }
 .header-banner__arrow {
+  display: none;
   width: 50px;
   height: 70px;
   position: absolute;
@@ -162,7 +193,21 @@
   display: flex;
   flex-direction: row;
 }
-.main-card__img {
+@media only screen and (max-width: 1100px) {
+  .main-card .card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 670px) {
+  .main-card .card {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.main-card .card .main-card__img {
   padding: 44px 0 0 40px;
   max-width: 800px;
   width: 100%;
@@ -171,48 +216,50 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.main-card__title {
+.main-card .card .main-card__title {
   font-size: 48px;
   line-height: 150%;
   color: #FFFFFF;
 }
-.main-card__text {
+.main-card .card .main-card__text {
   font-size: 22px;
   max-width: 342px;
   width: 100%;
   color: #FFFFFF;
 }
-.main-card__link {
+.main-card .card .main-card__link {
   font-size: 22px;
   line-height: 150%;
   text-decoration: underline;
   color: #FFFFFF;
 }
-.main-card .card-right {
-  padding: 44px 25px 0 40px;
+.main-card .card .card-right {
+  max-width: 800px;
+  width: 100%;
+  padding: 44px 25px 100px 40px;
   background-color: #DF4F3A;
 }
-.main-card .card-right__titles {
+.main-card .card .card-right__titles {
   font-size: 48px;
   line-height: 150%;
   color: #FFFFFF;
 }
-.main-card .card-right__texts {
+.main-card .card .card-right__texts {
   font-size: 22px;
   max-width: 342px;
   width: 100%;
   color: #FFFFFF;
 }
-.main-card .card-right .card__links {
+.main-card .card .card-right .card__links {
   font-size: 22px;
   line-height: 150%;
   text-decoration: underline;
   color: #FFFFFF;
 }
-.main-card .cards {
+.main-card .card .cards {
   display: flex;
 }
-.main-card .cards .cards-img {
+.main-card .card .cards .cards-img {
   max-width: 380px;
   width: 100%;
   height: 402px;
@@ -221,31 +268,31 @@
   background-image: url(/img/people.png);
   background-size: cover;
 }
-.main-card .cards .cards__title {
+.main-card .card .cards .cards__title {
   font-size: 48px;
   line-height: 150%;
   color: #FFFFFF;
 }
-.main-card .cards .cards__text {
+.main-card .card .cards .cards__text {
   font-size: 22px;
   max-width: 342px;
   width: 100%;
   color: #FFFFFF;
 }
-.main-card .cards .cards__link {
+.main-card .card .cards .cards__link {
   font-size: 22px;
   line-height: 150%;
   text-decoration: underline;
   color: #FFFFFF;
 }
-.main-card .cards-events {
+.main-card .card .cards-events {
   max-width: 380px;
   width: 100%;
   height: 402px;
   padding: 34px 40px 0 30px;
   background-color: #98281B;
 }
-.main-card .cards-events .cards-img {
+.main-card .card .cards-events .cards-img {
   max-width: 400px;
   width: 100%;
   height: 402px;
@@ -254,58 +301,58 @@
   background-image: url(/img/people.png);
   background-size: cover;
 }
-.main-card .cards-events .cards__title {
+.main-card .card .cards-events .cards__title {
   font-size: 48px;
   line-height: 150%;
   color: #FFFFFF;
 }
-.main-card .cards-events .cards__text {
+.main-card .card .cards-events .cards__text {
   font-size: 22px;
   max-width: 342px;
   width: 100%;
   color: #FFFFFF;
 }
-.main-card .cards-events .cards__link {
+.main-card .card .cards-events .cards__link {
   font-size: 22px;
   line-height: 150%;
   text-decoration: underline;
   color: #FFFFFF;
 }
-.main-card .cards-right__img {
+.main-card .card .cards-right__img {
   max-width: 450px;
   width: 100%;
   height: 402px;
   background-image: url(/img/students.png);
   background-size: cover;
 }
-.main-card .cardss {
+.main-card .card .cardss {
   display: flex;
 }
-.main-card .cardss .card-about {
+.main-card .card .cardss .card-about {
   max-width: 380px;
   width: 100%;
   height: 402px;
   padding: 34px 40px 0 30px;
   background: #73291F;
 }
-.main-card .cardss .card-about .cards__title {
+.main-card .card .cardss .card-about .cards__title {
   font-size: 48px;
   line-height: 150%;
   color: #FFFFFF;
 }
-.main-card .cardss .card-about .cards__text {
+.main-card .card .cardss .card-about .cards__text {
   font-size: 22px;
   max-width: 342px;
   width: 100%;
   color: #FFFFFF;
 }
-.main-card .cardss .card-about .cards__link {
+.main-card .card .cardss .card-about .cards__link {
   font-size: 22px;
   line-height: 150%;
   text-decoration: underline;
   color: #FFFFFF;
 }
-.main-card .cardss .card-about__img {
+.main-card .card .cardss .card-about__img {
   padding: 44px 0 0 40px;
   max-width: 800px;
   width: 100%;

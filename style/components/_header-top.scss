@@ -31,17 +31,17 @@
             .burger-menu {
                 display: none;
                 flex-direction: column;
-                gap: 5px;
+                gap: 7px;
 
                 @include mediaMobileFirst(820) {
                     display: flex;
                 }
 
                 &>div {
-                    width: 30px;
-                    height: 3px;
+                    width: 40px;
+                    height: 4px;
                     background: $titleColor;
-                    border-radius: 1px;
+                    border-radius: 10px;
                 }
 
                 .menu-link:hover {
@@ -50,7 +50,7 @@
                 }
             }
 
-            &__img {
+            .header-top__img {
                 width: 80px;
                 height: 100%;
             }
